@@ -1,0 +1,39 @@
+{
+  "_from": "ztwserver-switchheader",
+  "_id": "ztwserver-switchheader@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-qV6Ko3qYB46J5oetmKJNiSvb6B8=",
+  "_location": "/ztwserver-switchheader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ztwserver-switchheader",
+    "name": "ztwserver-switchheader",
+    "escapedName": "ztwserver-switchheader",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/ztwserver-switchheader/download/ztwserver-switchheader-1.0.1.tgz",
+  "_shasum": "a95e8aa37a98078e89e687ad98a24d892bdbe81f",
+  "_spec": "ztwserver-switchheader",
+  "_where": "F:\\zserver\\demo",
+  "author": {
+    "name": "zhantewei"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "switch header",
+  "license": "ISC",
+  "main": "switchHeader.js",
+  "name": "ztwserver-switchheader",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

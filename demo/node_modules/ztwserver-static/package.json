@@ -1,0 +1,46 @@
+{
+  "_from": "ztwserver-static",
+  "_id": "ztwserver-static@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-2OTZd79f6F4Hs3QuZ105+gPslNo=",
+  "_location": "/ztwserver-static",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ztwserver-static",
+    "name": "ztwserver-static",
+    "escapedName": "ztwserver-static",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/ztwserver-static/download/ztwserver-static-1.0.1.tgz",
+  "_shasum": "d8e4d977bf5fe85e07b3742e675d39fa03ec94da",
+  "_spec": "ztwserver-static",
+  "_where": "F:\\zserver\\demo",
+  "author": {
+    "name": "zhantewei"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ztwserver-switchheader": "*"
+  },
+  "deprecated": false,
+  "description": "static",
+  "keywords": [
+    "ztwserver",
+    "static"
+  ],
+  "license": "ISC",
+  "main": "static.js",
+  "name": "ztwserver-static",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

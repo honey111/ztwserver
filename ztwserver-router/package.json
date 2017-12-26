@@ -1,0 +1,43 @@
+{
+  "_from": "ztwserver-router@^1.0.0",
+  "_id": "ztwserver-router@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-zZmHTDiyJC3Iym6a8wSxoFVfxb8=",
+  "_location": "/ztwserver-router",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ztwserver-router@^1.0.0",
+    "name": "ztwserver-router",
+    "escapedName": "ztwserver-router",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/ztwserver-router/download/ztwserver-router-1.0.0.tgz",
+  "_shasum": "cd99874c38b2242dc8ca6e9af304b1a0555fc5bf",
+  "_spec": "ztwserver-router@^1.0.0",
+  "_where": "F:\\zserver\\demo",
+  "author": {
+    "name": "zhantewei"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "ztwserver router middleware",
+  "keywords": [
+    "router",
+    "server"
+  ],
+  "license": "ISC",
+  "main": "router.js",
+  "name": "ztwserver-router",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
