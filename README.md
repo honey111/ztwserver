@@ -23,7 +23,7 @@ npm install ztwserver
 
 ### Middleware
 
-example router middleware:
+Instance of router middleware:
 ```js
 const zsesrver=require('ztwserver');
 const Router=require('ztwserver-router');
