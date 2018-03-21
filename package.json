@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "ztwserver-switchheader": "file:ztwserver-switchheader"
+    "ztwserver-static": "^1.0.4",
+    "ztwserver-switchheader": "^1.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node ./demo/app.js"
+    "start": "node ./demo/app.js"
   },
   "repository": {
     "type": "git",

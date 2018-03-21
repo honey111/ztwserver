@@ -1,13 +1,16 @@
 const Server=require('../ztwserver');
 const Router=require('../ztwserver-router');
-const Static=require('../ztwserver-static');
+const Static=require('ztwserver-static');
 const app=new Server();
 const router=new Router();
 
 const myRouter=require('./router/router.js')(router);
 
 app.use(myRouter.routes());
-app.use(Static('static','assets'));
+app.use(Static('static','assets',{
+	etag:true,
+	gzip:true
+}));
 app.use(async(ctx,next)=>{
 	ctx.body=`
 		<html>
